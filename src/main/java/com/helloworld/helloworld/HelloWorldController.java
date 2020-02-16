@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloWorldController {
 
-	@RequestMapping("/start")
-	public String start() {
+	@RequestMapping("/index")
+	public String index() {
 		
-		return "start";
+		return "The Home Page!";
 	}
 	@RequestMapping("/")
-	public String index() {
+	public String start() {
 		
 		return "start";
 	}
